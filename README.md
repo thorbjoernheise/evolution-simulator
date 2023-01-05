@@ -16,7 +16,6 @@ To run the program, execute the following command:
 
 ```
 python main.py
-
 ```
 
 The program will generate a random population of individuals, evolve the population using genetic algorithms, assign each individual to a species using k-means clustering, and create a scatter plot of the individuals, where the x-axis represents size, the y-axis represents strength, and the color of each point represents the species that the individual belongs to.
