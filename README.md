@@ -25,7 +25,7 @@ python main.py
 
 The behavior of the genetic algorithm can be customized by modifying the following variables in the code:
 
-    NGEN: The number of generations to evolve the population
-    size_threshold, strength_threshold, speed_threshold: The threshold values for determining whether two individuals can reproduce with each other (as defined in the can_reproduce() function)
-    cxpb, mutpb: The probability of applying crossover and mutation, respectively, to the individuals within each species (as used in the algorithms.varAnd() function)
+NGEN: *The number of generations to evolve the population*
+size_threshold, strength_threshold, speed_threshold: *The threshold values for determining whether two individuals can reproduce with each other (as defined in the* can_reproduce() *function)*
+cxpb, mutpb: *The probability of applying crossover and mutation, respectively, to the individuals within each species (as used in the* algorithms.varAnd() *function)*
 
