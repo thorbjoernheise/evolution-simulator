@@ -1,6 +1,8 @@
 # Evolution Simulator
 
-This Python program simulates the evolution of a population of individuals, where each individual has a size, strength, and speed, and belongs to a species. The program uses a combination of genetic algorithms and k-means clustering to evolve the population and assign individuals to species, respectively. It then visualizes the individuals and their species in a scatter plot.
+This is a Python implementation of a genetic algorithm for optimizing a set of parameters. The algorithm evolves a population of individuals with three attributes (size, strength, and speed) through the processes of selection, crossover, and mutation. The fittest individuals are selected to form the next generation of the population, and the evolution process continues for a specified number of generations.
+
+This project was created as a hobby project to explore the basics of genetic algorithms and how they can be used to solve optimization problems. It is a simple example of how a genetic algorithm can be implemented in Python, and it can serve as a starting point for more complex or sophisticated projects.
 
 ## Dependencies
 
@@ -9,6 +11,7 @@ The program requires the following libraries:
 - DEAP
 - Matplotlib
 - Scikit-learn
+- CSV
 
 ## Usage
 
@@ -18,11 +21,11 @@ To run the program, execute the following command:
 python main.py
 ```
 
-The program will generate a random population of individuals, evolve the population using genetic algorithms, assign each individual to a species using k-means clustering, and create a scatter plot of the individuals, where the x-axis represents size, the y-axis represents strength, and the color of each point represents the species that the individual belongs to.
+##Customization
 
-## Configuration
+The behavior of the genetic algorithm can be customized by modifying the following variables in the code:
 
-The number of species can be controlled by adjusting the `k` parameter in the `get_species` function. The number of individuals in the population can be controlled by adjusting the `pop_size` parameter in the `main` function. The evolution of the population can be controlled by adjusting the various genetic algorithm parameters in the `main` function, such as the crossover and mutation probabilities, the selection function, etc.
-
-## License
+    NGEN: The number of generations to evolve the population
+    size_threshold, strength_threshold, speed_threshold: The threshold values for determining whether two individuals can reproduce with each other (as defined in the can_reproduce() function)
+    cxpb, mutpb: The probability of applying crossover and mutation, respectively, to the individuals within each species (as used in the algorithms.varAnd() function)
 
