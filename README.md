@@ -8,10 +8,10 @@ This project was created as a hobby project to explore the basics of genetic alg
 
 The program requires the following libraries:
 
-- DEAP
-- Matplotlib
-- Scikit-learn
-- CSV
+- DEAP [(LGPL 2.1 license)](https://github.com/thorbjoernheise/evolution-simulator/blob/main/LICENSES/deap.txt)
+- Matplotlib [(Python Software Foundation License)](https://github.com/thorbjoernheise/evolution-simulator/blob/main/LICENSES/matplotlib.txt)
+- Scikit-learn [(BSD 3-clause license)](https://github.com/thorbjoernheise/evolution-simulator/blob/main/LICENSES/scikit-learn.txt)
+- Numpy [(BSD 3-clause license)](https://github.com/thorbjoernheise/evolution-simulator/blob/main/LICENSES/numpy.txt)
 
 ## Usage
 
@@ -30,4 +30,6 @@ __NGEN:__ *The number of generations to evolve the population*
 __size_threshold, strength_threshold, speed_threshold:__ *The threshold values for determining whether two individuals can reproduce with each other (as defined in the* can_reproduce() *function)* 
  
 __cxpb, mutpb:__ *The probability of applying crossover and mutation, respectively, to the individuals within each species (as used in the* algorithms.varAnd() *function)*
+
+
 
