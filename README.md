@@ -13,6 +13,8 @@ The program requires the following libraries:
 - Scikit-learn [(BSD 3-clause license)](https://github.com/thorbjoernheise/evolution-simulator/blob/main/LICENSES/scikit-learn.txt)
 - Numpy [(BSD 3-clause license)](https://github.com/thorbjoernheise/evolution-simulator/blob/main/LICENSES/numpy.txt)
 
+This project uses the Python standard library, which is licensed under the Python Software Foundation License.
+
 ## Usage
 
 To run the program, execute the following command:
