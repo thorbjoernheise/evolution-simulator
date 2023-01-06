@@ -34,4 +34,10 @@ __size_threshold, strength_threshold, speed_threshold:__ *The threshold values f
 __cxpb, mutpb:__ *The probability of applying crossover and mutation, respectively, to the individuals within each species (as used in the* algorithms.varAnd() *function)*
 
 
+## Further Resources
+
+- [DEAP documentation](https://deap.readthedocs.io/en/stable/)
+- [Matplotlib documentation](https://matplotlib.org/stable/documentation/index.html)
+- [Scikit-learn documentation](https://scikit-learn.org/stable/documentation.html)
+- [NumPy documentation](https://numpy.org/doc/stable/)
 
