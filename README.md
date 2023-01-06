@@ -21,7 +21,7 @@ To run the program, execute the following command:
 python main.py
 ```
 
-##Customization
+## Customization
 
 The behavior of the genetic algorithm can be customized by modifying the following variables in the code:
 
