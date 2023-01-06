@@ -24,6 +24,7 @@ def can_reproduce(ind1, ind2):
         return False
     return True
 
+#Individual class
 class Individual(tuple):
     def __new__(cls, values):
         return tuple.__new__(cls, values)
@@ -85,7 +86,7 @@ print(population)
 def get_species(ind, population):
     # Initialize a list of species
     species = []
-    # Iterate over the population and assign individuals to species based on their ability to reproduce
+    # Iterate over the population and assign individuals to species based on their reproduction ability
     for individual in population:
         found_species = False
         for s in species:
